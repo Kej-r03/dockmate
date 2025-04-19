@@ -1,0 +1,10 @@
+{
+    "extends": ["config:base"],
+    "docker": {
+      "enabled": true
+    },
+    "pip_requirements": {
+      "enabled": true
+    }
+  }
+  
