@@ -13,7 +13,10 @@ spec:
         app: dockmate
     spec:
       containers:
+      # - name: dockmate
+      #   image: kejr03/dockmate:latest
+      #   ports:
+      #   - containerPort: 5000
       - name: dockmate
-        image: kejr03/dockmate:latest
-        ports:
-        - containerPort: 5000
+        image: dockmate:local  
+        imagePullPolicy: Never  
