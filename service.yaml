@@ -4,7 +4,7 @@ metadata:
   name: flask-app-service
 spec:
   selector:
-    app: flask-app
+    app: dockmate
   ports:
     - protocol: TCP
       port: 80
