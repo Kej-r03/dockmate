@@ -3,10 +3,10 @@ name: Build, Test and Deploy Docker Image
 on:
   pull_request:
     branches:
-      - main
+      - master
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
