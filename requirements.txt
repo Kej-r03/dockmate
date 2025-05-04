@@ -1,4 +1,4 @@
-flask==2.0.1
+flask==2.2.5
 pydantic==2.7.1
 requests==2.31.0
 pytest==8.2.0
