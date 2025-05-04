@@ -20,3 +20,17 @@ spec:
       - name: dockmate
         image: dockmate:local  
         imagePullPolicy: Never  
+# ---
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: dockmate-service
+# spec:
+#   type: NodePort
+#   selector:
+#     app: dockmate
+#   ports:
+#     - protocol: TCP
+#       port: 5000
+#       targetPort: 5000
+#       nodePort: 30007
